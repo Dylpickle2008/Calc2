@@ -32,6 +32,17 @@ function Result() {
     }
  }
 
+
+let x = 1000000
+
+function checkNumber(x, Result) {
+   if (Result > x)  {
+   innerText("Number is too high!");
+   }
+}
+
+
+
  //result function, gets the value variable as number1 and uses it to solve for number2 as the final answer. 
 
 function Clear() {
@@ -50,12 +61,6 @@ function Back() {
 
 
 
-const outputDisplay = document.querySelector('#output');
- 
- 
-const buttonValues = document.getElementById('');
 
-buttonValues.addEventListener('click', () => {
-   outputDisplay.style.backgroundColor = 'red';
-});
+
 
