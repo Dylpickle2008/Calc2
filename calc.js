@@ -70,7 +70,9 @@ function Back() {
  const decimalButton = document.getElementById('dot');
  const equalsButton = document.getElementById('equals');
 
- 
+ //adds an event listener to each button based on its ID
+
+
 clearButton.addEventListener('click', () => {
    outputBox.style.backgroundColor = 'white';
 })
@@ -146,3 +148,5 @@ decimalButton.addEventListener('click', () => {
 equalsButton.addEventListener('click', () => {
    outputBox.style.backgroundColor = 'white';
 })
+
+//styles the background color of the output display screen depending on which color is clicked 
