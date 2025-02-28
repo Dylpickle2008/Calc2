@@ -32,17 +32,6 @@ function Result() {
     }
  }
 
-
-let x = 1000000
-
-function checkNumber(x, Result) {
-   if (Result > x)  {
-   innerText("Number is too high!");
-   }
-}
-
-
-
  //result function, gets the value variable as number1 and uses it to solve for number2 as the final answer. 
 
 function Clear() {
@@ -60,7 +49,100 @@ function Back() {
  //back function, gets the value variable and backspaces it
 
 
+ const outputBox = document.getElementById('res');
+ const clearButton = document.getElementById('clear');
+ const backspaceButton = document.getElementById('backspace');
+ const divideButton = document.getElementById('divide');
+ const sevenButton = document.getElementById('seven');
+ const eightButton = document.getElementById('eight');
+ const nineButton = document.getElementById('nine');
+ const multiplyButton = document.getElementById('times');
+ const fourButton = document.getElementById('four');
+ const fiveButton = document.getElementById('five');
+ const sixButton = document.getElementById('six');
+ const subtractionButton = document.getElementById('minus');
+ const oneButton = document.getElementById('one');
+ const twoButton = document.getElementById('two');
+ const threeButton = document.getElementById('three');
+ const additionButton = document.getElementById('plus');
+ const doubleZero = document.getElementById('double-zero');
+ const Zero = document.getElementById('zero');
+ const decimalButton = document.getElementById('dot');
+ const equalsButton = document.getElementById('equals');
 
+ 
+clearButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'white';
+})
 
+backspaceButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'white';
+})
 
+divideButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'red';
+})
 
+sevenButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'purple';
+})
+
+eightButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'purple';
+})
+
+nineButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'purple';
+})
+
+multiplyButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'purple';
+})
+
+fourButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'yellow';
+})
+
+fiveButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'yellow';
+})
+
+sixButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'yellow';
+})
+
+subtractionButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'yellow';
+})
+
+oneButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'green';
+})
+
+twoButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'green';
+})
+
+threeButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'green';
+})
+
+additionButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'green';
+})
+
+doubleZero.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'blue';
+})
+
+Zero.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'blue';
+})
+
+decimalButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'blue';
+})
+
+equalsButton.addEventListener('click', () => {
+   outputBox.style.backgroundColor = 'white';
+})

@@ -8,44 +8,44 @@
    <div id="calc">
     <div id="content">
      <h1>Free Calculator!</h1>
-     <h3>I'm a fun calculator!</h3>
+     <a href="https://en.wikipedia.org/wiki/Calculator" target="_blank">I'm a fun calculator!</a>
         <form>
             <div id="output">
-               <input type="text" id='res'>
+               <input type="text" class="result" id='res'>
             </div>
             <div class="btn">
                <div class="first-group">
                  <input type="button" class="apple" value='C' onclick="Clear()" id="clear">
                  <input type="button" class="apple" value='←' onclick="Back()" id="backspace">
-                 <input type="button" class="apple" value='/' onclick="Solve('/')">
+                 <input type="button" class="apple" value='/' onclick="Solve('/')" id="divide">
                </div>
                <br>
                <div class="second-group">
-                 <input type="button" class="mango" value='7' onclick="Solve('7')">
-                 <input type="button" class="mango" value='8' onclick="Solve('8')">
-                 <input type="button" class="mango" value='9' onclick="Solve('9')">
-                 <input type="button" class="mango" value='x' onclick="Solve('*')">
+                 <input type="button" class="mango" value='7' onclick="Solve('7')" id="seven">
+                 <input type="button" class="mango" value='8' onclick="Solve('8')" id="eight">
+                 <input type="button" class="mango" value='9' onclick="Solve('9')" id="nine">
+                 <input type="button" class="mango" value='x' onclick="Solve('*')" id="times">
                </div>
                <br>
                <div class="third-group">
-                 <input type="button" class="orange" value='4' onclick="Solve('4')">
-                 <input type="button" class="orange" value='5' onclick="Solve('5')">
-                 <input type="button" class="orange" value='6' onclick="Solve('6')">
-                 <input type="button" class="orange" value='-' onclick="Solve('-')">
+                 <input type="button" class="orange" value='4' onclick="Solve('4')" id="four">
+                 <input type="button" class="orange" value='5' onclick="Solve('5')" id="five">
+                 <input type="button" class="orange" value='6' onclick="Solve('6')" id="six">
+                 <input type="button" class="orange" value='-' onclick="Solve('-')" id="minus">
                </div>
                <br>
                <div class="fourth-group">
-                 <input type="button" class="pear" value='1' onclick="Solve('1')">
-                 <input type="button" class="pear" value='2' onclick="Solve('2')">
-                 <input type="button" class="pear" value='3' onclick="Solve('3')">
-                 <input type="button" class="pear" value='+' onclick="Solve('+')">
+                 <input type="button" class="pear" value='1' onclick="Solve('1')" id="one">
+                 <input type="button" class="pear" value='2' onclick="Solve('2')" id="two">
+                 <input type="button" class="pear" value='3' onclick="Solve('3')" id="three">
+                 <input type="button" class="pear" value='+' onclick="Solve('+')" id="plus">
                </div>
                <br>
                <div class="fifth-group">
-                 <input type="button" class="bannana" value='00' onclick="Solve('00')">
-                 <input type="button" class="bannana" value='0' onclick="Solve('0')">
-                 <input type="button" class="bannana" value='.' onclick="Solve('.')">
-                 <input type="button" class="bannana" value='=' onclick="Result()">
+                 <input type="button" class="bannana" value='00' onclick="Solve('00')" id="double-zero">
+                 <input type="button" class="bannana" value='0' onclick="Solve('0')" id="zero">
+                 <input type="button" class="bannana" value='.' onclick="Solve('.')" id="dot">
+                 <input type="button" class="bannana" value='=' onclick="Result()" id="equals">
                </div>
             </div>
         </form>
@@ -54,28 +54,3 @@
    <script src='calc.js'></script>
 </body>
 </html>
-
-
-               <button class="clear">C</button>
-               <button class="backspace">←</button>
-               <button class="divide">/</button>
-               <br>
-               <button class="seven">7</button>
-               <button class="eight">8</button>
-               <button class="nine">9</button>
-               <button class="multiply">*</button>
-               <br>
-               <button class="four">4</button>
-               <button class="five">5</button>
-               <button class="six">6</button>
-               <button class="minus">-</button>
-               <br>
-               <button class="one">1</button>
-               <button class="two">2</button>
-               <button class="three">3</button>
-               <button class="plus">+</button>
-               <br>
-               <button class="double-zero">00</button>
-               <button class="zero">0</button>
-               <button class="point">.</button>
-               <button class="solve">=</button>
