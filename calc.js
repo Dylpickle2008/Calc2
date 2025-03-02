@@ -74,11 +74,11 @@ function Back() {
 
 
 clearButton.addEventListener('click', () => {
-   outputBox.style.backgroundColor = 'white';
+   outputBox.style.backgroundColor = 'orange';
 })
 
 backspaceButton.addEventListener('click', () => {
-   outputBox.style.backgroundColor = 'white';
+   outputBox.style.backgroundColor = 'orange';
 })
 
 divideButton.addEventListener('click', () => {
